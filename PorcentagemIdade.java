@@ -30,9 +30,7 @@ public class PorcentagemIdade {
         // Cálculo da porcentagem
         double porcentagem = (contador * 100.0) / totalPessoas;
 
-        // Exibição dos resultados
-        System.out.println("\nTotal de pessoas com mais de " + idadeLimite + " anos: " + contador);
-        System.out.printf("Isso representa %.2f%% do total de pessoas.\n", porcentagem);
+        System.out.printf("Porcentagem de pessoas acima da idade limite: %.2f%%%n", porcentagem);
 
         scanner.close();
     }
